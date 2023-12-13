@@ -42,6 +42,10 @@ h3 {
     color: var(--secondary-color);
 }
 
+h1 {
+    color: var(--secondary-color);
+}
+
 body{
      font-family: "Poppins", sans-serif;
      background-color: var(--background-color);
@@ -166,7 +170,7 @@ nav a:hover {
 }
 
 .menu-links.open {
-    max-height: 300px;
+    max-height: 400px;
 }
   
 
@@ -364,6 +368,12 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+/* Services */
+
+#services {
+    position: relative;
 }
 
 /* experience */
