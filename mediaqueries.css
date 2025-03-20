@@ -102,3 +102,27 @@
       text-align: justify;
     }
   }
+
+  /* Responsive Styling */
+@media (max-width: 768px) {
+  .stats-container {
+      grid-template-columns: 1fr;
+  }
+  .about-containers {
+    grid-template-columns: 1fr; /* Show 1 column on tablets and below */
+  }
+}
+
+
+
+/* Specific Media Query for 425px or below */
+@media (max-width: 425px) {
+  .about-containers {
+    grid-template-columns: 1fr !important; /* Force 1 column on 425px or below */
+    padding: 0 1rem; /* Optional: Add padding to ensure proper spacing */
+  }
+  .details-container {
+    padding: 1rem;
+    margin-bottom: 1rem; /* Optional: Adjust bottom margin for spacing */
+  }
+}
