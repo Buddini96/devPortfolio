@@ -551,12 +551,12 @@ section {
     width: 90%;
     /* height: 500px; */
     padding: 1rem;
-    border-radius: 20px;
+    border-radius: 12px;
     background: var(--primary-color-2);
 }
 
 .project-img {
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 100%;
     height: 70%;
     object-fit: cover;
